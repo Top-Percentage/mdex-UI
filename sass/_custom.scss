@@ -1,0 +1,51 @@
+// Custom Styles
+
+$sprite-circle-radius: 75px;
+$make-circle: 100%;
+
+.sprite-circle {
+  width: $sprite-circle-radius;
+  height: $sprite-circle-radius;
+  border-radius: $make-circle;
+  border-width: 10px;
+  border-style: solid;
+  border-color: white;
+  position: absolute;
+  top: 2.75%;
+  left: 12.5px;
+  background: #d4d4d4;
+  //box-shadow: 1px 2px 5px rgba(0,0,0,0.15);
+}
+
+nav {
+  box-shadow: none;
+  @extend .red, .darken-1;
+  .brand-logo {
+    font-size: 1.75rem;
+  }
+}
+
+.default-nav {
+  font-family: "Roboto Condensed", "Roboto", sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size:1.5rem;
+}
+
+.monster-sprite {
+  &.chimchar {
+    background-image: url('../assets/sprites/390.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% auto;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: -36%;
+    top: -32%;
+  }
+}
+
+.material-icons {
+  line-height: 2;
+}

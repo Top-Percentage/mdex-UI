@@ -1,0 +1,10 @@
+{
+  "name": "MasterDexUI",
+  "version": "0.0.1",
+  "description": "Master Dex UI",
+  "author": "Top-Percentage",
+  "license": "ISC",
+  "dependencies": {
+    "react-tools": "~0.13.3"
+  }
+}
